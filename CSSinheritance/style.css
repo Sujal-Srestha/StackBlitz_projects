@@ -1,0 +1,15 @@
+/* Properties which are inherited by the child element*/
+/* Challenge 1: Add style properties to the body, which can be inherited by the child elements of the body. */
+body {
+  text-align: center; /* Inherited text-align */
+  font-family: Arial, sans-serif; /* Inherited font family */
+  font-size: 16px; /* Inherited font size */
+  color: rgb(255, 255, 255); /* Inherited text color */
+}
+
+/* Properties which are not inherited by the child element */
+/* Challenge 2: Add style properties to the body which cannot be inherited by the child element of the body. */
+body {
+  background-image: url('https://images.unsplash.com/photo-1586596436497-8d6f8d1d921f?ixlib=rb-4.0.3 ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8bjVYLU43bFI3WHd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=420&q=60'); /* Background image is set on body */
+  background-size: cover;
+}

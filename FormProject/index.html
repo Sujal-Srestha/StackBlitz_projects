@@ -1,0 +1,110 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Form</title>
+    <style>
+      body {
+        background-image: url(https://images.rawpixel.com/image_450/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg);
+        background-size: cover;
+      }
+      table,
+      h1 {
+        color: white;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .div1 {
+        background-color: black;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Registration form</h1>
+    <div class="div1">
+      <div class="div2">
+        <form
+          action="mailto:sujal.shrestha@kalvium.community"
+          method="post"
+          enctype="text/plain"
+        >
+          <table cellpadding="10px">
+            <tr>
+              <!-- Challenge 1: Text Input for User Name -->
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" id="name" name="user_name" /></td>
+            </tr>
+            <tr>
+              <!-- Challenge 2: Labels for Appropriate Elements -->
+              <td><label for="email">Email:</label></td>
+              <td><input type="email" id="email" name="user_email" /></td>
+            </tr>
+            <tr>
+              <td><label for="subject">Subject:</label></td>
+              <td>
+                <input type="text" id="subject" name="email_subject" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="message">Message:</label></td>
+              <td>
+                <textarea id="message" name="user_message" rows="4"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="transcript">Grade 12 transcript:</label></td>
+              <td>
+                <input
+                  type="file"
+                  accept=".pdf"
+                  name="transcript"
+                  id="transcript"
+                />
+              </td>
+            </tr>
+            <tr>
+              <!-- Challenge 3: Different Form Input Elements -->
+              <td><label for="gender">Gender:</label></td>
+              <td>
+                <select id="gender" name="user_gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="neutral">Neutral</option>
+                  <option value="other">Other</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="hostel">Hostel Accomodation:</label></td>
+              <td>
+                <input
+                  type="checkbox"
+                  id="hostel"
+                  name="hostel_accomodation"
+                  value="yes"
+                />
+              </td>
+            </tr>
+            <tr>
+              <!-- Challenge 4: Submit Button -->
+              <td><button type="submit" value="submit">SUBMIT</button></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

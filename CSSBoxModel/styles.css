@@ -1,0 +1,20 @@
+/* Your code goes here */
+.image-container {
+  width: 300px;
+  height: 375px;
+  /* Challenge 3: Set the top and left margins to be 100px */
+  margin-top: 100px;
+  margin-left: 100px;
+  /* Challenge 3: Add a 5px wide red dashed border to the div */
+  border: 5px dashed red;
+  /* Challenge 5: Add 10px of padding to the top and bottom and 5px padding to the right and left around the image */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+img {
+  width: 300px;
+  height: 375px;
+}

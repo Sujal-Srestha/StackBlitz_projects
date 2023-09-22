@@ -1,0 +1,18 @@
+/* Challenge 1*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+body {
+  font-family: Poppins;
+}
+
+/* Challenge 2*/
+#css {
+  font-variant: small-caps;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+/* Challenge 3*/
+p {
+  font-size: 15px;
+}

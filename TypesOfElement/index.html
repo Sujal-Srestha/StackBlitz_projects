@@ -1,0 +1,150 @@
+<!-- 
+  
+  This is the project-based Lab on the following concepts 
+  1. HTML Block elements
+  2. In line elements 
+
+
+Project description: Build a webpage on your hobbies
+
+Challenge 1: Use appropriate Block elements while building your webpage.
+
+Challenge 2: Use appropriate in line elements while building your hobbies webpage.
+
+Important note: Add comments above the tag to mention the HTML element type 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hobbies</title>
+    <style>
+      /* Global styles */
+
+      /* universal selector */
+      * {
+        font-family: Arial, sans-serif;
+      }
+
+      /* tag selector */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+      }
+
+      li {
+        border: 1px solid #ddd;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      p {
+        color: #555;
+      }
+
+      /* Center images within list items */
+      /* attribute with values */
+      [height='200px'] {
+        display: block;
+        margin: 0 auto;
+      }
+
+      /* attribute selector */
+      [title] {
+        color: aqua;
+      }
+
+      /* descendent selector */
+      body li {
+        text-align: center;
+      }
+      /* id selector */
+      #game {
+        color: blue;
+      }
+
+      /* class selector */
+      .music {
+        color: purple;
+      }
+
+      /* pseuod selectors */
+      li p:hover {
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- h1 is a block level element -->
+    <h1>My Hobbies</h1>
+
+    <!-- ul is a block level element -->
+    <ul type="none">
+      <!-- li is a block level element -->
+      <li>
+        <div>
+          <!-- h2 is a block level element -->
+          <h2 title="Cooking">Cooking</h2>
+          <!-- p is a block level element -->
+          <p>I love experimenting with different recipes and cuisines.</p>
+          <!-- img is an inline element -->
+          <!-- Here, we have used css to change it to block level element -->
+          <img
+            src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg"
+            height="200px"
+            alt="Cooking"
+          />
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <h2 id="game">Gaming</h2>
+          <p>
+            Gaming is my passion, and I enjoy playing a variety of video games
+            from different genres.
+          </p>
+          <img
+            src="https://signal.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/9%20Ways%20to%20Boost%20Your%20Gaming%20Rig/How_to_Improve_Your_Gaming_PC_Performance-Hero.jpg?width=1800&name=How_to_Improve_Your_Gaming_PC_Performance-Hero.jpg"
+            height="200px"
+            alt="Gaming"
+          />
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <h2 class="music">Music</h2>
+          <p>
+            I'm a music enthusiast and enjoy playing the guitar and listening to
+            a wide range of music genres.
+          </p>
+          <img
+            src="https://daily.jstor.org/wp-content/uploads/2023/01/good_times_with_bad_music_1050x700.jpg"
+            alt="Music"
+            height="200px"
+          />
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>

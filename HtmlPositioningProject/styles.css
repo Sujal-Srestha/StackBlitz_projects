@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+* {
+  margin: 0px;
+}
+/*Body has been positioned relative*/
+body {
+  font-family: Poppins;
+  position: relative;
+}
+/* Div with class 'div1' has been positioned absolute, relative to body. */
+
+.div1 {
+  position: absolute;
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg?size=626&ext=jpg');
+  background-size: cover;
+}
+/*The nav bar has been positioned sticky.*/
+nav {
+  background-color: hsl(208, 39%, 81%);
+  z-index: 10;
+  width: 95%;
+  position: sticky;
+  top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+ul li {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+}
+a:hover {
+  color: rgb(62, 97, 128);
+}
+/*The chat icon has been positioned fixed at bottom right. */
+img {
+  height: 70px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+.topText {
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  z-index: 0;
+  padding: 50px;
+  text-align: center;
+  font-size: 100px;
+}
+.div2 {
+  background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg');
+  color: aliceblue;
+}
