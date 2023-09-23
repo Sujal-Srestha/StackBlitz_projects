@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Super Over</title>
+</head>
+
+<body>
+    <!-- Inserting Logo displayed on the top -->
+    <img
+      id="logo"
+      src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-logo.png"
+    />
+    <!-- Section for scoreboards -->
+    <section id="scoreboardSec">
+        <!-- Div for India's Score-->
+        <div id="ind_scoreboard" class="scoreboard">
+            <h1>IND</h1>
+            <!-- Div with class balls to make the circles -->
+            <div id="ball_div">
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+            </div>
+            <h3>
+                <!-- Span with unique id is used for changing the score using JS-->
+                <span id="ind_score"> 0 </span>   <span> / </span>  <span id="ind_wickets"> 0 </span>
+            </h3>
+        </div>
+
+        <!-- Div for Pakistan's Score-->
+        <div id="pak_scoreboard" class="scoreboard">
+            <h1>PAK</h1>
+            <!-- Div with class balls to make the circles -->
+            <div id="ball_div">
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+            </div>
+            <h3>
+                <!-- Span with unique id is used for changing the score using JS-->
+                <span id="pak_score"> 0 </span>   <span> / </span>  <span id="pak_wickets"> 0 </span>
+            </h3>
+        </div>
+    </section>
+
+    <!-- Section for Buttons -->
+    <section>
+    <!-- strike Button -->
+        <img  class="button"  id="strike"  src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png"/>
+    <!-- reset Button -->
+        <img  class="button"  id="reset"   src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png"/>
+    </section>
+
+</body>
+</html>
