@@ -6,11 +6,6 @@
   font-weight: 800;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png');
     background-size: cover;
@@ -20,18 +15,18 @@ body{
 }
 
 #logo{
-    margin: 5vh;
+    margin: 4vh;
     height: 10vh;
     margin-bottom: 2.5vh;
 }
 /* Designing score boards */
 .scoreboard{
     display: inline-block;
-    height: 35vh;
-    width: 35vh;
+    height: 47.5vh;
+    width: 30vw;
     border-radius: 20px;
     padding: 1vh;
-    margin: 5vw;
+    margin: 0vh 5vw;
 }
 
 section{
@@ -51,29 +46,36 @@ section{
 
 /* Designing balls */
 .ball{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: white;
-    margin: 5px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 5px;
+  color: black;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
 }
 
 h1{
     margin: 25px;
-    font-size: 7.5vh;
+    font-size: 10vh;
     font-weight: 600;
 }
 
 h3{
     margin: 25px;
-    font-size: 5vh;
+    font-size: 7.5vh;
     font-weight: 600;
 }
 
 /* Designing Buttons */
 .button {
-    width: 75px;
-    height: 75px;
+    width: 100x;
+    height: 100px;
     margin: 0 30px;
+    cursor: pointer;
 }
