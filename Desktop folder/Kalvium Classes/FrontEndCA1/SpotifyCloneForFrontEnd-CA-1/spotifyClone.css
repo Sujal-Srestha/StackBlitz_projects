@@ -1,0 +1,118 @@
+@import url('');
+
+/*
+Colors 
+nav = black
+current song list= 303030
+current ssong bg = 121212
+shows bg = 181818
+bottom = 1ED760
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+#container-for-navigation-menu{
+    background-color: black;
+    width: 20vw;
+    padding: 20px;
+}
+#container-for-navigation-menu div{
+    margin: 25px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+#container-for-song-lists{
+    background-color: #121212;
+    width: 90vw;
+}
+
+#lower-container{
+    background-color: #181818;
+    position: fixed;
+    bottom: 0px;
+    height: 10vh;
+    width: 100vw;
+}
+#Upper-container{
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu-images{
+    height: 3vh;
+}
+.nav-menu{
+    margin: 10px;
+}
+#logo{
+    width: 10vw;
+}
+#addPlaylist{
+    font-size: 3vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#playlist-nav-menu-table,#general-nav-menu-table{
+    height: 17.5vh;
+    width: 100%;
+}
+#playlist-nav-menu-table td, #general-nav-menu-table td,#install-table{
+    vertical-align:middle;
+}
+#fav-list-menu li{
+    padding: 3.5px;
+}
+#lower-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#container-current-song div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#current-device{
+    background-color: #1ED760;
+}
+#current-song-logo,#controls{
+    height: 8vh;
+}
+#controls{
+    height: 8vh;
+    margin-left: 30px;
+}
+#right-options{
+    width: 15vw;
+    margin-top: 20px;
+}
+#current-song div{
+    display: inline-block;
+}
+.song-lists{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.song-lists ul{
+    display: flex;
+}
+.song-lists ul li{
+    padding: 10px;
+}
+.likedSongs{
+
+}
